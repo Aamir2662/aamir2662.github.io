@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us</title>
+</head>
+<body>
+  <h1>About Gaming Evan Club</h1>
+  <p>Gaming Evan Club is an online platform offering free browser games to students, kids, and gamers of all ages. No installation, no hassle — just fun.</p>
+</body>
+</html>
