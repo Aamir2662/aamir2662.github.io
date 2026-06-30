@@ -1,0 +1,9 @@
+{
+  "name": "Gaming Evan Club",
+  "short_name": "GamingEvanClub",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1f2430",
+  "icons": [{ "src": "/classroom.png", "sizes": "192x192", "type": "image/png" }]
+}
