@@ -256,3 +256,40 @@ a{color:#0b6fae;}
   display:none !important; /* hide empty ad box entirely */
 }
 .ad-label{display:none !important;}
+/* Header v3 — stylized logo + rotating gamepad icon */
+.logo{
+  font-size:2.1rem;
+  font-weight:800;
+  letter-spacing:.04em;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-shadow:0 2px 10px rgba(46,204,113,.35);
+  background:linear-gradient(90deg,#ffffff 20%,#2ecc71 75%,#9be8b8);
+  background-size:200% auto;
+  -webkit-background-clip:text;
+  background-clip:text;
+  -webkit-text-fill-color:transparent;
+  animation:shine 5s linear infinite;
+}
+@keyframes shine{
+  0%{background-position:0% center;}
+  100%{background-position:200% center;}
+}
+
+.logo-icon{
+  font-size:2.2rem;
+  color:#2ecc71;
+  -webkit-text-fill-color:#2ecc71;
+  filter:drop-shadow(0 0 8px rgba(46,204,113,.7));
+  animation:spin 4s linear infinite;
+}
+@keyframes spin{
+  0%{transform:rotateY(0deg);}
+  100%{transform:rotateY(360deg);}
+}
+
+@media (max-width:600px){
+  .logo{font-size:1.5rem;}
+  .logo-icon{font-size:1.7rem;}
+}
